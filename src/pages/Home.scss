@@ -66,3 +66,143 @@
     margin: 50px;
     
 }
+.what-we-provide-container{
+  width: 100%;
+  text-align: center;
+}
+.line-shape:not(.line-shape-after):before {
+  content: "";
+  margin-right: 10px;
+  transform: translateY(-50%) rotate(180deg);
+  left: -90px;
+}
+.section-title{
+  font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.title-block-lg {
+  // position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+h3{
+  margin: 20px 0px;
+}
+.services{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.services-div{
+  width: 95%;
+  margin: auto;
+}
+.we-ensure-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0px;
+}
+.we-ensure-title{
+  width: 45%;
+  height: auto;
+  // text-align: center;
+  align-self: center;
+  font-size: 30px;
+  margin: 50px;
+}
+.we-ensure-list{
+  width: 55%;
+  height: auto;
+  align-self: center;
+  margin: 50px 30px;
+}
+.we-ensure-list-ul{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.we-ensure-list-li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  color: "#000000c4"
+  // align-self: center;
+}
+.working-on-what-matters-containers{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.matters-content{
+  width: 45%;
+  height: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.matters-list{
+  width: 55%;
+  margin: 50px;
+}
+.matters-list-li{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.matters-list-li-icon{
+  // margin-top: 20px;
+
+}
+.matters-title{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 20px 50px;
+  align-self: center;
+}
+.why-us-container{
+  width: 100%;
+  height: auto;
+  background-image: url('../img/WhyUsBg.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+.why-us-div{
+  width: 80%;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+.why-us-content{
+  box-shadow: 6px 0px 10px 0px rgba(0,0,0,0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 60px 80px 60px;
+}
+.why-us-li{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 16px;
+  color: "#000000c4";
+  letter-spacing: "1.5px";
+}
+.our-works-container{
+  margin-top: 200px;
+}
+.our-works-title{
+  width: 100%;
+  text-align: center;
+}
+.our-partners-container{
+  width: 100%;
+  height: auto;
+  margin: 100px 0px;
+}
+.our-partners-div{
+  width: 100%;
+  text-align: center;
+}
