@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import "./ServicesCard.scss";
 import {BsHourglassSplit} from "react-icons/bs"
+import {BsArrowUpRight} from "react-icons/bs";
 import Service1 from "../../img/serviceimage1.webp"
 export default function ServicesCard({title, link, backgroundImg}) {
     const [ishovered, setIsHovered] = useState(false);
@@ -17,7 +18,7 @@ export default function ServicesCard({title, link, backgroundImg}) {
     onMouseEnter={handleMouserOver}
     onMouseLeave={handleMouserLeave}>
         <div>
-            <BsHourglassSplit size={50} />
+            <BsHourglassSplit size={50} fill='#214a7d' />
         </div>
         <div className='services-card-content'>
             <div className='services-card-title-div'>
@@ -27,7 +28,11 @@ export default function ServicesCard({title, link, backgroundImg}) {
             <div>
                 <hr />
             </div>
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: "10px"}}>
+
             <a className='service-link' href={link}>KNOW MORE</a>
+            <BsArrowUpRight size={15} fill='#214a7d' />
+            </div>
         </div>
     </div>
   )

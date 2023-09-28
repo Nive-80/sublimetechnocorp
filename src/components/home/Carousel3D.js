@@ -44,11 +44,11 @@ export default function Carousel3D() {
         className="mySwiper"
       >
         <SwiperSlide style={{ backgroundImage: `url(${Work1})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/online-laundry-order-management-system" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Online Laundry - Order Management System</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/online-laundry-order-management-system" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -57,11 +57,11 @@ export default function Carousel3D() {
         </SwiperSlide>
 
         <SwiperSlide style={{ backgroundImage: `url(${Work2})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/underground-mines-erp" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Under Ground Mines ERP</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/underground-mines-erp" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -69,11 +69,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work3})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/ai-based-health-monitoring-system" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>AI Based Health Monitoring</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/ai-based-health-monitoring-system" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -81,11 +81,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work4})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/solar-web-application" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Solar Web Application</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/solar-web-application" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -93,11 +93,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work5})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/online-bidding-facilitating" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Online Bidding Facilitating</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/online-bidding-facilitating" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -105,11 +105,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work6})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/material-testing-lab-automation" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Material Testing & Lab Automation</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/material-testing-lab-automation" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -117,11 +117,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work7})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/farmers-connect-application" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Farmers Connect Application</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/farmers-connect-application" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -129,11 +129,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work8})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/shipping-management-solution" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Shipping Management Solution</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/shipping-management-solution" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -141,11 +141,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work9})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/sports-ecosystem" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Sports Ecosystem</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/sports-ecosystem" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>
@@ -153,11 +153,11 @@ export default function Carousel3D() {
           </a>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundImage: `url(${Work10})` }}>
-          <a href="your_link_here" className="slide-link">
+          <a href="/works/logistic-solution-erp" className="slide-link">
             <div className="slide-content">
               <div className="slide-text">
                 <h2 style={{ fontSize: "24px" }}>Logistics Solutions ERP</h2>
-                <a href="your_link_here" className="know-more">
+                <a href="/works/logistic-solution-erp" className="know-more">
                   VIEW PROJECT{" "}
                 </a>
               </div>

@@ -57,10 +57,13 @@
     height: -webkit-fill-available;
 }
 .welcome-content{
-  font-size: 22px;
-  color: #000000c4;
+  font-size: 20px;
+  color: #696969;
   margin-top: 20px;
-  font-weight: 400;
+  // font-weight: 400;
+line-height: 30px;
+  opacity: 1;
+    transform: translate(0px, 0px);
 }
 .how-we-work-container{
     width: 100%;
@@ -69,19 +72,59 @@
     flex-direction: row;
     margin-top: 50px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .how-we-work-title{
     font-size: 30px;
     width: 40%;
     align-self: center;
     text-align: center;
-
+    opacity: 0;
+    animation-name: slideInLeft;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 .how-we-work-content{
     width: 60%;
     align-self: center;
     margin: 50px;
-    
+    opacity: 0;
+    animation-name: slideInRight;
+    animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.how-we-work-content p{
+  font-size: 20px;
+    color: #696969;
+    margin-top: 20px;
+    // font-weight: 400;
+  line-height: 30px;
+    opacity: 1;
+      transform: translate(0px, 0px);   
 }
 .what-we-provide-container{
   width: 100%;
@@ -132,11 +175,48 @@ h3{
   font-size: 30px;
   margin: 50px;
 }
+.we-ensure-title span{
+  font-size: 44px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  opacity: 0;
+    animation-name: slideInLeftward;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 .we-ensure-list{
   width: 55%;
   height: auto;
   align-self: center;
   margin: 50px 30px;
+  opacity: 0;
+  animation-name: slideInRightwards;
+  animation-delay: 0.5s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-delay: 0.5s;
+}
+@keyframes slideInLeftward {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInRightwards {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
 .we-ensure-list-ul{
   margin-top: 20px;
@@ -166,6 +246,12 @@ h3{
 .matters-list{
   width: 55%;
   margin: 50px;
+  opacity: 0;
+  animation-name: slideInRightSide;
+  animation-delay: 0.5s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-delay: 0.5s;
 }
 .matters-list-li{
   display: flex;
@@ -183,6 +269,43 @@ h3{
   align-self: center;
   margin: 20px 50px;
   align-self: center;
+  opacity: 0;
+  animation-name: slideInLeftside;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideInLeftside {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInRightSide {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.matters-title span{
+  font-size: 44px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+.matters-title p{
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #000000c4;
 }
 .why-us-container{
   width: 100%;
@@ -219,7 +342,7 @@ h3{
 .our-partners-container{
   width: 100%;
   height: auto;
-  margin: 100px 0px;
+  margin: 150px 0px;
 }
 .our-partners-div{
   width: 100%;
@@ -234,6 +357,7 @@ h3{
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+  margin: 50px 0px;
   // width: 150px;
   // height: auto;
   .partner-card-content{
@@ -241,7 +365,18 @@ h3{
     margin-bottom: 20px;
   }
 }
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
 
+.zoom-out-animation {
+  animation: zoom-out 1s ease-out;
+}
 /* CSS for tab view */
 @media (max-width: 768px) {
   .welcome-container {
@@ -304,6 +439,7 @@ h3{
   .matters-list {
     width: 100%;
     margin: 20px;
+ 
   }
 
   .our-partners-cards .partner-card-content {

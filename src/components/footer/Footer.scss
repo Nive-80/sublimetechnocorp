@@ -1,3 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-column h4{
+    font-size: 20px;
+}
+.footer-column ul{
+
+}
+.footer-column li{
+    margin: 15px 0px;
+}

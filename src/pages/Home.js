@@ -83,12 +83,7 @@ export default function Home() {
           </div>
           <div className="how-we-work-content">
             <p
-              style={{
-                fontSize: "22px",
-                color: "#000000c4",
-                marginTop: "20px",
-                fontWeight: "400",
-              }}
+              
             >
               We develop global custom software development services for
               start-ups, SMEs MSMEs, and Corporates businesses.
@@ -123,11 +118,7 @@ export default function Home() {
         <div className="we-ensure-container">
           <div className="we-ensure-title">
             <span
-              style={{
-                fontSize: "44px",
-                letterSpacing: "4px",
-                fontWeight: "600",
-              }}
+             
             >
               We ensure
             </span>
@@ -153,21 +144,12 @@ export default function Home() {
           <div className="matters-content">
             <div className="matters-title">
               <span
-                style={{
-                  fontSize: "44px",
-                  letterSpacing: "4px",
-                  fontWeight: "500",
-                }}
+               
               >
                 Working on what matters
               </span>
               <p
-                style={{
-                  fontSize: "20px",
-                  letterSpacing: "2px",
-                  lineHeight: "30px",
-                  color: "#000000c4",
-                }}
+               
               >
                 We build digital experiences and brands that people fall in love
                 with. When I hear the buzz of the little world among the stalks,
@@ -361,7 +343,7 @@ export default function Home() {
           <div className="our-partners-section">
 
          
-          <div className="our-partners-cards">
+          <div className="our-partners-cards zoom-out-animation">
           {partnersData.map((partners) => (
                 <PartnerCard
                   title={partners.title}
