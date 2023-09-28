@@ -343,7 +343,7 @@ export default function Home() {
           <div className="our-partners-section">
 
          
-          <div className="our-partners-cards zoom-out-animation">
+          <div className="our-partners-cards zoom-in-animation">
           {partnersData.map((partners) => (
                 <PartnerCard
                   title={partners.title}
