@@ -16,7 +16,7 @@
 .services-card:hover{
     // background-image: none;
     opacity: 0.7;
-    background-image: url("../../img/serviceimage1.webp");
+    // background-image: url("../../img/serviceimage1.webp");
 
 }
 .services-card-content{
@@ -35,4 +35,9 @@
 }
 .service-link:hover{
     text-decoration: underline;
+}
+@media (max-width: 480px) {
+    .services-card{
+        width: 90%;
+    }
 }

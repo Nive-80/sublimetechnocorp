@@ -11,6 +11,8 @@ import { BsCheckLg } from "react-icons/bs";
 import Swiper from "react-id-swiper";
 import "../../node_modules/swiper/swiper.scss";
 import Carousel3D from "../components/home/Carousel3D";
+import { partnersData } from "../components/home/PartnersData";
+import PartnerCard from "../components/home/PartnerCard";
 
 export default function Home() {
   const params = {
@@ -32,15 +34,15 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <Navbar />
+        
         <div className="home-video">
           <video autoPlay loop muted className="video-element">
             <source src={SublimeVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="text-overlay">
-            <h1 style={{ fontSize: "50px" }}>Sublime Technocorp Pvt Ltd</h1>
-            <p style={{ fontSize: "22px" }}>
+            <h1 >Sublime Technocorp Pvt Ltd</h1>
+            <p >
               WE ARE YOUR ALLIES IN LEADING TECHNOLOGICAL FORAYS
             </p>
           </div>
@@ -53,22 +55,15 @@ export default function Home() {
               </h5>
             </div>
             <div
-              style={{
-                fontSize: "50px",
-                fontWeight: "bold",
-                lineHeight: "70px",
-              }}
+             className="welcome-title"
+             
             >
               Building Your Future Organisations Through Technology And
               Automation Aids
             </div>
             <div
-              style={{
-                fontSize: "22px",
-                color: "#000000c4",
-                marginTop: "20px",
-                fontWeight: "400",
-              }}
+             
+              className="welcome-content"
             >
               We are a Technology company, and work passionately towards
               creating solutions of tomorrow. We are driven by the purpose of
@@ -119,6 +114,7 @@ export default function Home() {
                   title={service.title}
                   subtitle={service.subtitle}
                   link={service.link}
+                  backgroundImg={service.backgroundImg}
                 />
               ))}
             </div>
@@ -360,6 +356,20 @@ export default function Home() {
                 YOUR SUCCESS, <br/>OUR REPUTATION
               </h3>
             </div>
+           
+          </div>
+          <div className="our-partners-section">
+
+         
+          <div className="our-partners-cards">
+          {partnersData.map((partners) => (
+                <PartnerCard
+                  title={partners.title}
+                  img= {partners.img}
+                  className="partner-card-content"
+                />
+              ))}
+          </div>
           </div>
         </div>
       </div>

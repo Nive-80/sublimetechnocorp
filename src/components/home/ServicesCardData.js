@@ -7,27 +7,27 @@ import Service5 from "./../../img/serivceimage5.jpg";
 export const ServicesCardData = [
   {
     title: "CLOUD TRANSFORMATION",
-    backgroundImg: "../../img/serviceimage1.webp",
-    link: "/",
+    backgroundImg: Service1,
+    link: "/services/cloud-and-digital-transformation-service",
   },
   {
     title: "DEDICATED DEVELOPERS",
     backgroundImg: Service2,
-    link: "/",
+    link: "/services/dedicated-developers",
   },
   {
     title: "CUSTOM SOFTWARE DEVELOPMENT",
     backgroundImg: Service3,
-    link: "/",
+    link: "/services/custom-software-development",
   },
   {
     title: "PRODUCT DEVELOPMENT SERVICE",
     backgroundImg: Service4,
-    link: "/",
+    link: "/services/product-development-services",
   },
   {
     title: "DATA ANALYTICS",
     backgroundImg: Service5,
-    link: "/",
+    link: "/services/data-analytics-services",
   },
 ];

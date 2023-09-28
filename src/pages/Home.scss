@@ -23,11 +23,22 @@
     color: white;
     text-align: center;
   }
+  .text-overlay h1{
+    font-size: 54px;
+  }
+  .text-overlay p{
+    font-size: 22px;
+  }
 .welcome-container{
  display: flex;
  flex-direction: row;
  width: 100%;
  justify-content: space-between;   
+}
+.welcome-title{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 70px;
 }
 .welcome-content-container{
     width: 60%;
@@ -44,6 +55,12 @@
 .welcomeimg{
     width: 100%;
     height: -webkit-fill-available;
+}
+.welcome-content{
+  font-size: 22px;
+  color: #000000c4;
+  margin-top: 20px;
+  font-weight: 400;
 }
 .how-we-work-container{
     width: 100%;
@@ -98,6 +115,8 @@ h3{
 .services-div{
   width: 95%;
   margin: auto;
+  // flex: 0 0 calc(50% - 20px); /* Two items per row */
+  // margin: 10px;
 }
 .we-ensure-container{
   width: 100%;
@@ -205,4 +224,168 @@ h3{
 .our-partners-div{
   width: 100%;
   text-align: center;
+}
+.our-partners-section{
+  width: 90%;
+  margin: auto;
+}
+.our-partners-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  // width: 150px;
+  // height: auto;
+  .partner-card-content{
+    flex: 0 0 calc(14.2857% - 20px); /* Adjust the value to set the width of each partner card */
+    margin-bottom: 20px;
+  }
+}
+
+/* CSS for tab view */
+@media (max-width: 768px) {
+  .welcome-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome-content-container {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .welcome-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .how-we-work-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .how-we-work-title {
+    width: 100%;
+  }
+
+  .how-we-work-content {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .we-ensure-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+  }
+
+  .we-ensure-title {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .we-ensure-list {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .working-on-what-matters-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .matters-content {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .matters-list {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .our-partners-cards .partner-card-content {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* CSS for mobile view */
+@media (max-width: 480px) {
+  // .home-video {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+
+  // .text-overlay {
+  //   position: static;
+  //   transform: none;
+  //   margin-top: 20px;
+  // }
+  .home-video{
+    height: 600px;
+  }
+.video-element{
+  height: 100%;
+}
+  .text-overlay h1 {
+    font-size: 30px;
+  }
+
+  .text-overlay p {
+    font-size: 16px;
+  }
+  .welcome-content-container {
+    margin: 10px;
+  }
+.welcome-container{
+  margin: 10px ;
+}
+  .welcome-image {
+    margin-top: 10px;
+  }
+.welcome-title{
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bolder;
+}
+.welcome-content{
+  font-size: 18px;
+}
+  .how-we-work-title {
+    font-size: 24px;
+  }
+
+  .we-ensure-title {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  .we-ensure-list {
+    margin: 10px;
+  }
+
+  .matters-content {
+    margin: 10px;
+  }
+
+  .matters-list-li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .our-partners-cards .partner-card-content {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .services{
+    // flex: 0 0 calc(100% - 20px); /* One item per row */
+    flex-direction: column;
+    width: 100%;
+  }
+  .why-us-content{
+    padding: 0px;
+  }
+  
 }

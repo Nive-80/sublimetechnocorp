@@ -1,0 +1,23 @@
+.partner-card{
+    width: 12%;
+    height: max-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.partner-card.hovered {
+    background-color: rgba(255, 255, 255, 0.637);
+  }
+  .text{
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .image{
+    // width: 100px;
+    // height: 100px;
+    width: 100%; /* Set the width of the image to fill the container */
+    height: 100%; /* Set the height of the image to fill the container */
+    object-fit: cover; 
+  }
+
